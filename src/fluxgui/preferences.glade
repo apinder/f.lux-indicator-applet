@@ -233,10 +233,12 @@ f.lux indicator applet made by Kilian Valkhof</property>
                     <property name="can_focus">False</property>
                     <property name="has_tooltip">True</property>
                     <property name="tooltip" translatable="yes">Fill in your preferred nighttime color temperature</property>
-                    <property name="items" translatable="yes">Tungsten (2700K)
+					<property name="items" translatable="yes">Bryony (2300K)
+Tungsten (2700K)
 Halogen (3400K)
 Fluorescent (4200K)
-Sunlight (5000K)</property>
+Sunlight (5000K)
+</property>
                   </widget>
                   <packing>
                     <property name="expand">True</property>

@@ -23,11 +23,12 @@ class Settings(object):
         if int(self._color) < 2700 or not self._color:
             # upgrade from previous version
             temperature_keys = {
-                    '0':  '2700',
-                    '1':  '3400',
-                    '2':  '4200',
-                    '3':  '5000',
-                    '4':  '6500',
+                    '0':  '2300',
+                    '1':  '2700',
+                    '2':  '3400',
+                    '3':  '4200',
+                    '4':  '5000',
+                    '5':  '6500',
             }
             if self._color in temperature_keys:
                 self.color = temperature_keys[self._color]
